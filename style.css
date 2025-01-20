@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 h1{
@@ -8,4 +9,22 @@ h1{
     text-align: center;
     padding: 14px;
     font-size: 40px;
+}
+
+.club{
+background-color: rgb(255, 0, 255);
+color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 18px;
+}
+.welcome{
+    background-color: rgb(183, 0, 255);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+
 }
