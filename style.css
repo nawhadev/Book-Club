@@ -1,76 +1,105 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
-.cuisins{
-    background-color: rgb(127, 229, 255);
-    color: blueviolet;
+.book{
+    background-color: blueviolet;
+    color: white;
     text-align: center;
     padding: 14px;
+    font-size: 40px;
 }
 
-.sins{
-    background-color: rgb(53, 172, 228);
+.club{
+background-color: rgb(255, 0, 255);
+color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 18px;
+}
+.welcome{
+    background-color: rgb(183, 0, 255);
     color: white;
-    font-size: 18px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    padding-top: 20px;
+    font-weight: bold;
+
 }
-h4{
-    background-color: rgb(210, 122, 232);
-    padding: 4px;
-    font-size: 14px;
-}
-.order{
-    background-color: rgb(157, 0, 255);
-    color: white;
-    padding: 8px;
-}
-.pie{
-    background-color: rgb(208, 127, 255);
+.Popular{
+    background-color: rgb(223, 118, 218);
     color: black;
 }
-.pie-head{
+.popular-head{
+    background-color: rgb(231, 33, 207);
+    text-align: center;
+    font-size: 30x;
+    padding: 8px;
+}
+.pic1{
+    background-color: white;
+    width: fit-content;
+    padding: 8px;
+    margin-top: 8px;
+}
+.pic1-sty{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.books-name{
+    color: black;
+    text-align: center;
+    font-size: medium;
+}
+.habit{
     background-color: blueviolet;
+    opacity: 0.8;
+}
+.habit-card{
+    position: relative;
+    height: 400px;
+}
+.habit-img1{
+    height: 250px;
+    position: absolute;
+    right: 30%;
+}
+.habit-img2{
+    height: 130px;
+    position: absolute;
+    top: 250px;
+}
+.habit-img3{
+    height: 150px;
+    position:absolute;
+    top: 250px;
+    right: 10%;
+}
+.comic-books{
+    background-color: rgb(128, 86, 235);
+}
+.comic-title{
+    background-color: rgb(200, 95, 241);
     text-align: center;
     font-size: 30px;
     padding: 8px;
 }
-.pic1-pie{
-    background-color: bisque;
-    width: fit-content;
-    padding: 8px;
+.comic-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
 }
-.pic1-sty{
-    width: 100px;
-    object-fit: cover;
-    border-radius: 8px;
+.comic-img{
+    height: 150px;
 }
-.pie-name{
-    color: black;
+.foot{
+    background-color: aqua;
     text-align: center;
-    margin-top: 8px;
-}
-.habit{
-    background-color: rgb(121, 107, 225);
-    opacity: 0.9;
-}
-.habit-card{
-    position: relative;
-}
-.habit-img1{
-    height:250px;
-    position: absolute;
-    right: 20%;
-}
-.habit-img2{
-    height: 250px;
-    
-}
-.habit-img3{
-    height: 250px;
-}
-.below-recipe{
-    padding-top: 250px;
-    font-size: 20px;
+    padding: 25px;
+    font-size: 25px;
 }
